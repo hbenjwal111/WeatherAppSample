@@ -1,5 +1,5 @@
-# Weather
-Weather is an Android app for Weather with Jetpack Compose. It uses [openweathermap API](https://openweathermap.org/api).
+# Weather App
+ Android app for Weather with Jetpack Compose. It uses [openweathermap API](https://openweathermap.org/api).
 
 ## 📐✏️ Architecture
 The app is built with the Model-View-ViewModel (MVVM) architecture with Repository pattern which is used to separate the app's user interface, logic, and data.
