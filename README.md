@@ -1,9 +1,5 @@
 # Weather
-[![Kotlin](https://img.shields.io/badge/kotlin-1.8.10-blue.svg?logo=kotlin)](http://kotlinlang.org)
-[![Gradle](https://img.shields.io/badge/Gradle-8-green?style=flat)](https://gradle.org)
-<a href="https://github.com/aishwarya-himanshu"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=aishwarya-himanshu&color=C51162"/></a><br>
-Weather is an Android app for Weather with Jetpack Compose. It uses [openweathermap API](https://openweathermap.org/api). It is single screen app which displays weather data for a city.
-There is a search function in the top app bar to search for any city and display its weather data.
+Weather is an Android app for Weather with Jetpack Compose. It uses [openweathermap API](https://openweathermap.org/api).
 
 ## 📐✏️ Architecture
 The app is built with the Model-View-ViewModel (MVVM) architecture with Repository pattern which is used to separate the app's user interface, logic, and data.
@@ -15,7 +11,7 @@ The app is built with the Model-View-ViewModel (MVVM) architecture with Reposito
 
 To visualize the flow:
 
-- User opens the app and sees the main weather screen with weather details of the default city - Munich.
+- User opens the app and sees the main weather screen with weather details of the default city - India.
 - User types a city name into the search bar.
 - The app's ViewModel, through the Repository, makes a call to the OpenWeatherMap API.
 - The API returns the weather data for the requested city.
@@ -41,24 +37,14 @@ In essence, this architecture ensures a separation of concerns, promoting a more
 - [GSON](https://github.com/google/gson) - JSON Parser, used to parse requests on the data layer for Entities and understands Kotlin non-nullable and default parameters.
 - [Logging Interceptor](https://github.com/square/okhttp/blob/master/okhttp-logging-interceptor/README.md) - An OkHttp interceptor which logs HTTP request and response data.
 - [Coil](https://coil-kt.github.io/coil/compose/)- An image loading library for Android backed by Kotlin Coroutines.
-- [Timber](https://github.com/JakeWharton/timber)- A logger with a small, extensible API which provides utility on top of Android's normal Log class.
 - [Mockk](https://github.com/mockk/mockk)- A mocking library for Kotlin
 - [Turbine](https://github.com/cashapp/turbine)- A small testing library for kotlinx.coroutines Flow
 
 ## 📱 Screenshots
 
-<img src="https://github.com/aishwarya-himanshu/Weather/assets/31899200/c123c440-06c0-4712-9910-b99423283882" width="40%"/></a>
-<img src="https://github.com/aishwarya-himanshu/Weather/assets/31899200/82e932c2-9b47-4c84-85ad-f500c9056987" width="40%"/></a>
 
 ## Demo
 
-https://github.com/aishwarya-kamal/Weather/assets/31899200/57aadb97-dab4-4d0f-90b8-297c19611ca2
-
-https://github.com/aishwarya-kamal/Weather/assets/31899200/ddf2cd97-d291-42e7-bdcc-ca8c2c02e0e9
-
-https://github.com/aishwarya-kamal/Weather/assets/31899200/2f3f5ae3-16b4-4153-99c0-fd0149a3ecc7
-
-https://github.com/aishwarya-kamal/Weather/assets/31899200/00c25c6d-9990-41d7-abaf-128f169fd7cd
 
 
 
