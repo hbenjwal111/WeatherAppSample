@@ -42,10 +42,12 @@ In essence, this architecture ensures a separation of concerns, promoting a more
 
 ## 📱 Screenshots
 
+<img src="https://github.com/hbenjwal111/WeatherAppSample/blob/main/app/assets/Screenshot_2024-02-08-20-25-50-66_23ba2c3554e2b69ff2fc4877e7c8d86e.jpg" width="40%"/></a>
+<img src="https://github.com/hbenjwal111/WeatherAppSample/blob/main/app/assets/Screenshot_2024-02-08-20-26-06-68_23ba2c3554e2b69ff2fc4877e7c8d86e.jpg" width="40%"/></a>
+
 
 ## Demo
 
+https://github.com/hbenjwal111/WeatherAppSample/blob/main/app/assets/31899200/210d5467-5a6f-42f6-926e-7ce6f69a00f5.mp4
 
-
-
-
+https://github.com/hbenjwal111/WeatherAppSample/blob/main/app/assets/37699615-e331-456c-a648-30d3967749c0.mp4
